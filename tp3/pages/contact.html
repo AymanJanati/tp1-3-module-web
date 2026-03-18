@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & Devis — Lumière Studio</title>
+  <meta name="description" content="Contactez Lumière Studio pour votre projet de design et branding. Devis gratuit sous 24h. Situés au 12 Rue de la Paix, Paris.">
+  <meta name="author" content="Lumière Studio">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://lumiere-studio.fr/pages/contact.html">
+  <meta property="og:title" content="Contact & Devis — Lumière Studio">
+  <meta property="og:description" content="Parlez-nous de votre projet. Devis gratuit sous 24h.">
+  <meta property="og:image" content="https://lumiere-studio.fr/images/og-contact.jpg">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="Lumière Studio">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Contact & Devis — Lumière Studio">
+  <meta name="twitter:description" content="Parlez-nous de votre projet. Devis gratuit sous 24h.">
+
+  <link rel="canonical" href="https://lumiere-studio.fr/pages/contact.html">
+  <link rel="stylesheet" href="../css/style.css">
+
+  <style>
+    .contact-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(201,168,76,0.1);
+      border: 1px solid rgba(201,168,76,0.25);
+      padding: 8px 18px;
+      font-size: 0.75rem;
+      color: var(--gold);
+      margin-bottom: 32px;
+    }
+    .contact-badge::before {
+      content: '';
+      width: 8px; height: 8px;
+      background: #4CAF50;
+      border-radius: 50%;
+      box-shadow: 0 0 0 3px rgba(76,175,80,.2);
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { box-shadow: 0 0 0 3px rgba(76,175,80,.2); }
+      50%       { box-shadow: 0 0 0 6px rgba(76,175,80,.0); }
+    }
+    .form-section-label {
+      font-size: 0.68rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: var(--gold);
+      padding-bottom: 16px;
+      border-bottom: 1px solid rgba(201,168,76,0.2);
+      margin-bottom: 24px;
+      margin-top: 8px;
+    }
+    .required { color: var(--gold); margin-left: 2px; }
+    .form-hint { font-size: 0.72rem; color: var(--muted); margin-top: 4px; }
+    /* Budget display */
+    #budget-val {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      color: var(--gold);
+      font-weight: 400;
+    }
+    .contact-divider {
+      height: 1px;
+      background: linear-gradient(90deg, rgba(201,168,76,.3), transparent);
+      margin: 32px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="container nav-inner">
+      <a href="../index.html" class="nav-logo">Lumière<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="../index.html">Accueil</a></li>
+        <li><a href="about.html">À propos</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Galerie</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="btn nav-cta"><span>Devis gratuit</span></a>
+      <button class="nav-toggle" aria-label="Ouvrir le menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <header class="page-header" data-title="Contact">
+    <div class="container">
+      <p class="section-label">Parlons de votre projet</p>
+      <h1>Commençons <em>ensemble</em><br>votre aventure</h1>
+      <p>Chaque grande marque commence par une conversation. Dites-nous ce que vous imaginez, nous nous chargeons du reste.</p>
+    </div>
+  </header>
+
+  <section class="section section--dark">
+    <div class="container">
+      <div class="contact-layout">
+
+        <!-- ── Informations de contact ── -->
+        <aside>
+          <div class="reveal">
+            <div class="contact-badge">Disponible — Réponse sous 24h</div>
+
+            <div class="contact-info-block">
+              <h3>Adresse</h3>
+              <p>12 Rue de la Paix<br>75001 Paris, France</p>
+            </div>
+
+            <div class="contact-info-block">
+              <h3>Téléphone</h3>
+              <p><a href="tel:+33123456789">+33 1 23 45 67 89</a><br>Lun–Ven, 9h–18h</p>
+            </div>
+
+            <div class="contact-info-block">
+              <h3>Email</h3>
+              <p>
+                <a href="mailto:hello@lumiere-studio.fr">hello@lumiere-studio.fr</a><br>
+                <a href="mailto:presse@lumiere-studio.fr">presse@lumiere-studio.fr</a>
+              </p>
+            </div>
+
+            <div class="contact-info-block">
+              <h3>Réseaux sociaux</h3>
+              <p>
+                <a href="#">Instagram</a> &nbsp;·&nbsp;
+                <a href="#">LinkedIn</a> &nbsp;·&nbsp;
+                <a href="#">Behance</a>
+              </p>
+            </div>
+
+            <div class="contact-divider"></div>
+
+            <div class="contact-info-block">
+              <h3>Horaires d'atelier</h3>
+              <p>
+                Lundi – Vendredi : 9h00 – 18h30<br>
+                Samedi : 10h00 – 13h00 (sur rendez-vous)<br>
+                Dimanche : Fermé
+              </p>
+            </div>
+          </div>
+        </aside>
+
+        <!-- ── Formulaire de contact ── -->
+        <main>
+          <div class="reveal">
+            <form id="contact-form" class="contact-form" novalidate>
+
+              <!-- Informations personnelles -->
+              <div class="form-section-label">Vos informations</div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="prenom">Prénom <span class="required">*</span></label>
+                  <input
+                    type="text"
+                    id="prenom"
+                    name="prenom"
+                    placeholder="Marie"
+                    required
+                    autocomplete="given-name"
+                    minlength="2"
+                  >
+                </div>
+                <div class="form-group">
+                  <label for="nom">Nom <span class="required">*</span></label>
+                  <input
+                    type="text"
+                    id="nom"
+                    name="nom"
+                    placeholder="Fontaine"
+                    required
+                    autocomplete="family-name"
+                    minlength="2"
+                  >
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email">Email <span class="required">*</span></label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="marie@mamarque.fr"
+                    required
+                    autocomplete="email"
+                  >
+                </div>
+                <div class="form-group">
+                  <label for="tel">Téléphone</label>
+                  <input
+                    type="tel"
+                    id="tel"
+                    name="tel"
+                    placeholder="+33 6 00 00 00 00"
+                    autocomplete="tel"
+                    pattern="[+\d\s\-]{7,20}"
+                  >
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="entreprise">Entreprise</label>
+                  <input
+                    type="text"
+                    id="entreprise"
+                    name="entreprise"
+                    placeholder="Ma Belle Marque SAS"
+                    autocomplete="organization"
+                  >
+                </div>
+                <div class="form-group">
+                  <label for="site">Site web actuel</label>
+                  <input
+                    type="url"
+                    id="site"
+                    name="site"
+                    placeholder="https://mamarque.fr"
+                    autocomplete="url"
+                  >
+                </div>
+              </div>
+
+              <!-- Type de projet -->
+              <div class="form-section-label" style="margin-top:16px">Votre projet</div>
+
+              <div class="form-group">
+                <label for="service">Service souhaité <span class="required">*</span></label>
+                <select id="service" name="service" required>
+                  <option value="" disabled selected>Sélectionnez un service…</option>
+                  <optgroup label="Identité & Branding">
+                    <option value="logo">Création de logo</option>
+                    <option value="charte">Charte graphique complète</option>
+                    <option value="brand-full">Identité de marque complète</option>
+                  </optgroup>
+                  <optgroup label="Design Digital">
+                    <option value="web">Site web / Web design</option>
+                    <option value="app">Application mobile</option>
+                    <option value="ux">UX/UI Design</option>
+                  </optgroup>
+                  <optgroup label="Print & Éditorial">
+                    <option value="packaging">Packaging produit</option>
+                    <option value="editorial">Design éditorial</option>
+                    <option value="rapport">Rapport annuel</option>
+                  </optgroup>
+                  <optgroup label="Contenu">
+                    <option value="motion">Motion design / Vidéo</option>
+                    <option value="social">Contenu social media</option>
+                    <option value="da">Direction artistique</option>
+                  </optgroup>
+                  <option value="autre">Autre (préciser dans le message)</option>
+                </select>
+              </div>
+
+              <!-- Comment avez-vous découvert l'agence ? Radio buttons -->
+              <div class="form-group">
+                <label>Comment nous avez-vous découverts ?</label>
+                <div class="radio-group" role="radiogroup">
+                  <label class="radio-item">
+                    <input type="radio" name="source" value="google"> Google
+                  </label>
+                  <label class="radio-item">
+                    <input type="radio" name="source" value="reseaux"> Réseaux sociaux
+                  </label>
+                  <label class="radio-item">
+                    <input type="radio" name="source" value="bouche-a-oreille"> Recommandation
+                  </label>
+                  <label class="radio-item">
+                    <input type="radio" name="source" value="presse"> Presse / Médias
+                  </label>
+                  <label class="radio-item">
+                    <input type="radio" name="source" value="autre-source"> Autre
+                  </label>
+                </div>
+              </div>
+
+              <!-- Budget slider -->
+              <div class="form-group">
+                <label for="budget">
+                  Budget envisagé : <span id="budget-val">5 000 €</span>
+                </label>
+                <input
+                  type="range"
+                  id="budget"
+                  name="budget"
+                  min="1000"
+                  max="50000"
+                  step="500"
+                  value="5000"
+                >
+                <div class="range-labels">
+                  <span>1 000 €</span>
+                  <span>50 000 €+</span>
+                </div>
+              </div>
+
+              <!-- Délai -->
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="delai">Délai souhaité</label>
+                  <input
+                    type="date"
+                    id="delai"
+                    name="delai"
+                    min="2024-01-01"
+                  >
+                  <p class="form-hint">Date de livraison idéale du projet</p>
+                </div>
+                <div class="form-group">
+                  <label for="nb-revisions">Nombre de révisions souhaitées</label>
+                  <input
+                    type="number"
+                    id="nb-revisions"
+                    name="nb-revisions"
+                    min="1"
+                    max="20"
+                    placeholder="3"
+                    value="3"
+                  >
+                </div>
+              </div>
+
+              <!-- Urgence — checkboxes -->
+              <div class="form-group">
+                <label>Options & préférences</label>
+                <div class="check-group">
+                  <label class="check-item">
+                    <input type="checkbox" name="options" value="urgent"> Projet urgent (supplément)
+                  </label>
+                  <label class="check-item">
+                    <input type="checkbox" name="options" value="nda"> Accord de confidentialité (NDA)
+                  </label>
+                  <label class="check-item">
+                    <input type="checkbox" name="options" value="rencontre"> Réunion en présentiel
+                  </label>
+                  <label class="check-item">
+                    <input type="checkbox" name="options" value="suivi"> Suivi mensuel post-livraison
+                  </label>
+                </div>
+              </div>
+
+              <!-- Message -->
+              <div class="form-group">
+                <label for="message">Décrivez votre projet <span class="required">*</span></label>
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Parlez-nous de votre entreprise, de vos objectifs, de votre cible et de votre vision. Plus vous partagez de détails, mieux nous pouvons vous répondre."
+                  required
+                  minlength="50"
+                  maxlength="2000"
+                ></textarea>
+                <p class="form-hint">Minimum 50 caractères — maximum 2 000 caractères</p>
+              </div>
+
+              <!-- Fichier -->
+              <div class="form-group">
+                <label>Joindre un brief ou document de référence</label>
+                <div class="file-drop">
+                  <input type="file" id="file-upload" name="fichier" accept=".pdf,.doc,.docx,.zip,.jpg,.png">
+                  <p>Glissez votre fichier ici ou <label for="file-upload" id="file-label" style="color:var(--gold);cursor:pointer;text-decoration:underline">choisissez un fichier</label></p>
+                  <p style="font-size:.7rem;margin-top:8px;color:var(--muted)">PDF, Word, ZIP, images — max 10 Mo</p>
+                </div>
+              </div>
+
+              <!-- Confidentialité -->
+              <div class="form-group">
+                <label class="check-item" style="align-items:flex-start">
+                  <input type="checkbox" name="rgpd" required style="margin-top:3px;flex-shrink:0">
+                  <span style="font-size:.82rem;color:var(--muted)">
+                    J'accepte que Lumière Studio traite mes données personnelles pour répondre à ma demande, conformément à la
+                    <a href="#" style="color:var(--gold)">politique de confidentialité</a>. <span class="required">*</span>
+                  </span>
+                </label>
+              </div>
+
+              <div>
+                <button type="submit" class="btn btn--filled" style="min-width:240px">
+                  <span>Envoyer le message</span>
+                </button>
+              </div>
+
+            </form>
+          </div>
+        </main>
+
+      </div>
+
+      <!-- ── Carte iframe ── -->
+      <div class="reveal">
+        <p class="section-label" style="margin-top:var(--section-gap)">Nous trouver</p>
+        <h2 class="section-title" style="margin-bottom:48px">Notre <em>atelier</em></h2>
+
+        <div class="map-wrap">
+          <iframe
+            src="https://www.openstreetmap.org/export/embed.html?bbox=2.3286%2C48.8685%2C2.3386%2C48.8735&layer=mapnik&marker=48.8710%2C2.3336"
+            width="100%"
+            height="400"
+            allowfullscreen
+            loading="lazy"
+            title="Localisation de Lumière Studio — 12 Rue de la Paix, Paris"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <p style="font-size:.8rem;color:var(--muted);margin-top:12px">
+          <a href="https://www.openstreetmap.org/search?query=12+Rue+de+la+Paix+Paris" target="_blank" rel="noopener noreferrer" style="color:var(--gold)">Voir en plein écran</a>
+          &nbsp;·&nbsp; Métro Opéra (lignes 3, 7, 8) — RER A Auber
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── FAQ rapide ── -->
+  <section class="section section--darker">
+    <div class="container">
+      <div class="reveal center">
+        <p class="section-label" style="justify-content:center">Questions fréquentes</p>
+        <h2 class="section-title">Ce qu'on nous <em>demande souvent</em></h2>
+        <div class="gold-line"></div>
+      </div>
+
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:32px;margin-top:64px">
+        <div class="reveal">
+          <h3 style="font-family:var(--font-display);font-size:1.2rem;color:var(--white);margin-bottom:12px">Quel est le délai moyen d'un projet ?</h3>
+          <p style="font-size:.85rem;color:var(--muted);line-height:1.8">Un projet d'identité de marque dure généralement 3 à 6 semaines. Un site web complet, entre 4 et 10 semaines selon la complexité.</p>
+        </div>
+        <div class="reveal">
+          <h3 style="font-family:var(--font-display);font-size:1.2rem;color:var(--white);margin-bottom:12px">Travaillez-vous avec des clients internationaux ?</h3>
+          <p style="font-size:.85rem;color:var(--muted);line-height:1.8">Absolument. Nous collaborons régulièrement avec des entreprises en Europe, au Moyen-Orient et en Asie. Tout le suivi se fait à distance avec les mêmes standards de qualité.</p>
+        </div>
+        <div class="reveal">
+          <h3 style="font-family:var(--font-display);font-size:1.2rem;color:var(--white);margin-bottom:12px">Quelle est votre politique de paiement ?</h3>
+          <p style="font-size:.85rem;color:var(--muted);line-height:1.8">Nous travaillons avec un acompte de 40% à la signature, 30% à mi-projet et 30% à la livraison. Les modes de paiement acceptés : virement, chèque, carte bancaire.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="../index.html" class="nav-logo">Lumière<span>.</span></a>
+          <p class="footer-desc">Agence de design & branding haut de gamme. Nous créons des identités visuelles mémorables pour les marques d'exception depuis 2012.</p>
+          <nav class="footer-social" aria-label="Réseaux sociaux">
+            <a href="#" aria-label="Instagram">In</a>
+            <a href="#" aria-label="LinkedIn">Li</a>
+            <a href="#" aria-label="Behance">Be</a>
+            <a href="#" aria-label="Dribbble">Dr</a>
+          </nav>
+        </div>
+        <nav class="footer-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="../index.html">Accueil</a></li>
+            <li><a href="about.html">À propos</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Galerie</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <nav class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html">Identité de marque</a></li>
+            <li><a href="services.html">Design éditorial</a></li>
+            <li><a href="services.html">Stratégie digitale</a></li>
+            <li><a href="services.html">Packaging</a></li>
+            <li><a href="services.html">Motion design</a></li>
+          </ul>
+        </nav>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="#">12 Rue de la Paix, Paris</a></li>
+            <li><a href="tel:+33123456789">+33 1 23 45 67 89</a></li>
+            <li><a href="mailto:hello@lumiere-studio.fr">hello@lumiere-studio.fr</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2024 Lumière Studio. Tous droits réservés.</p>
+        <nav class="footer-legal" aria-label="Mentions légales">
+          <a href="#">Mentions légales</a>
+          <a href="#">Politique de confidentialité</a>
+          <a href="#">CGV</a>
+          <a href="#">Cookies</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
